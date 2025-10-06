@@ -1,0 +1,86 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-size: 16px;
+  font-family: sans-serif;
+}
+
+body{
+  display: flex;
+  justify-content: center;
+  margin-top: 200px;  
+  background-color: #F3F3F3;
+}
+
+.container{
+  background-color: #F3F4F6;
+  padding: 20px;
+  -webkit-box-shadow: 4px 5px 15px -2px #000000; 
+  box-shadow: 4px 5px 15px -2px #000000;
+  border-radius: 5px;
+}
+
+h1{
+  margin-bottom: 20px;
+  font-size: 2.5em;
+}
+
+form{
+  display: flex;
+  flex-direction: column;
+  gap: 20PX;
+  width: 100%;  
+}
+
+.container-vl{
+  display: flex;
+  justify-content: center;
+  align-items: center;  
+}
+
+.container-vl label{
+  flex-grow: 1;
+  font-size: 1.5em;
+}
+
+.container-vl input{
+  flex-grow: 1;
+  padding: 5px;
+  border-radius: 5px;
+  border: 1px solid gray;
+}
+
+input:focus{
+  outline: green;
+}
+
+.container-convertido {
+  border: 1px solid gray;
+  background-color: #FFFFFF;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  height: 20px;
+}
+
+.container-convertido span{
+ font-size: 1.2em;
+  
+}
+
+button{
+  padding: 5px;
+  font-size: 1.2em;
+  background-color: #000000;
+  border: solid 1px gray;
+  border-radius: 5px;
+  font-weight: 100;
+  cursor: pointer;
+  color: #F3F3F3;
+  font-weight: bold;
+}
+
+button:hover{
+  transition:box-shadow .5s ease-in-out ;
+  box-shadow: 4px 5px 15px -9px #000000;
+}
