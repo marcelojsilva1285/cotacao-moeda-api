@@ -54,17 +54,19 @@ input:focus{
   outline: green;
 }
 
-.container-convertido {
+#container-convertido {
   border: 1px solid gray;
   background-color: #FFFFFF;
   padding: 10px;
-  margin-bottom: 10px;
+  /* visibility: hidden; */
   border-radius: 5px;
   height: 20px;
+  
 }
 
-.container-convertido span{
+#container-convertido span{
  font-size: 1.2em;
+
   
 }
 
@@ -78,6 +80,7 @@ button{
   cursor: pointer;
   color: #F3F3F3;
   font-weight: bold;
+  margin-top: 20px;
 }
 
 button:hover{
