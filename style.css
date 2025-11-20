@@ -1,89 +1,104 @@
-*{
+* {
   margin: 0;
   padding: 0;
   font-size: 16px;
   font-family: sans-serif;
 }
 
-body{
+body {
   display: flex;
   justify-content: center;
-  margin-top: 200px;  
-  background-color: #F3F3F3;
+  margin-top: 200px;
+  background-color: #285604;
 }
 
-.container{
-  background-color: #F3F4F6;
-  padding: 20px;
-  -webkit-box-shadow: 4px 5px 15px -2px #000000; 
+.container {
+  background-color: #FFFFFF;
+  padding: 50px 20px;
+  -webkit-box-shadow: 4px 5px 15px -2px #000000;
   box-shadow: 4px 5px 15px -2px #000000;
   border-radius: 5px;
 }
 
-h1{
-  margin-bottom: 20px;
+h1 {
+  margin-bottom: 30px;
   font-size: 2.5em;
+  color: #3d8506;
+  font-weight: bolder;
+  text-transform: uppercase;
+  border-bottom: 2px solid ;
+  padding-bottom:20px ;
 }
 
-form{
+form {
   display: flex;
   flex-direction: column;
   gap: 20PX;
-  width: 100%;  
+  width: 100%;
 }
 
-.container-vl{
+.container-vl {
   display: flex;
   justify-content: center;
-  align-items: center;  
+  align-items: center;
 }
 
-.container-vl label{
+.container-vl label {
   flex-grow: 1;
   font-size: 1.5em;
+  color: #9FE870;
+  text-transform: uppercase;
 }
 
-.container-vl input{
+.container-vl input {
   flex-grow: 1;
-  padding: 5px;
+  padding: 10px;
   border-radius: 5px;
-  border: 1px solid gray;
+  border: 2px solid ;
+  outline-color: #9FE870;
+
+  font-weight: 100;
+
+  &::placeholder{
+    color: #16330072;
+  }
+
 }
 
-input:focus{
-  outline: green;
-}
 
 #container-convertido {
-  border: 1px solid gray;
+  border: 2px solid #163300;
   background-color: #FFFFFF;
   padding: 10px;
   /* visibility: hidden; */
   border-radius: 5px;
   height: 20px;
-  
+
 }
 
-#container-convertido span{
- font-size: 1.2em;
-
-  
-}
-
-button{
-  padding: 5px;
+#container-convertido span {
   font-size: 1.2em;
-  background-color: #000000;
-  border: solid 1px gray;
+  color: #9FE870;
+  text-transform: uppercase;
+
+}
+
+button {
+  padding: 10px;
+  font-size: 1.2em;
+  background-color: #9FE870;
+  /* border: solid 1px #163300; */
+  border: none;
   border-radius: 5px;
   font-weight: 100;
   cursor: pointer;
-  color: #F3F3F3;
+  color: #FFFFFF;
   font-weight: bold;
   margin-top: 20px;
 }
 
-button:hover{
-  transition:box-shadow .5s ease-in-out ;
-  box-shadow: 4px 5px 15px -9px #000000;
+button:hover {
+  transition: background-color .5s ease;
+  /* box-shadow: 4px 5px 15px -9px #000000; */
+  background-color: #80E142;
 }
